@@ -1,0 +1,121 @@
+.main-section {
+  padding: 4rem;
+}
+
+.main-section .filters {
+  margin: 1.5rem 1rem;
+}
+
+.main-section .filters .filter button {
+  min-width: 10rem;
+  max-width: 20rem;
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+  padding: 0.3em 1.5em;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #000000;
+  background-size: 100% 100%;
+  margin: 0.7rem;
+}
+
+.main-section .filters .filter button:not([class="filter-sort_by"]):hover {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+.main-section .filters .filter button.filter-date {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.35);
+}
+
+.main-section .filters .filter button span {
+  position: relative;
+  right: -1rem;
+}
+
+.main-section .filters .filter button.filter-sort_by {
+  background-color: #41f1b6;
+}
+
+.main-section .filters .filter button.filter-apply {
+  background-color: #41f1b6;
+}
+
+/* .main-section .transactions {
+    background-color: #ffffff;
+} */
+
+.main-section .transactions .transaction {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-section .transactions .transaction .transaction-detail {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  display: flex;
+}
+
+.main-section .transactions .transaction .transaction-detail .transaction-icon {
+  margin: 0 0.6rem;
+}
+
+.main-section .transactions .transaction .transaction-others {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  display: flex;
+}
+
+.main-section .transactions .transaction .transaction-others .transaction-cost {
+  font-weight: bold;
+}
+
+.main-section .transactions .transaction .transaction-others .transaction-cost {
+  margin: 0 0.8rem;
+}
+
+.main-section .transactions .transaction .transaction-others .transaction-star {
+  margin: 0 0.6rem;
+}
+
+.main-section
+  .transactions
+  .transaction
+  .transaction-others
+  .transaction-star:hover {
+  cursor: pointer;
+}
+
+.main-section
+  .transactions
+  .transaction
+  .transaction-others
+  .transaction-delete:hover {
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #fff;
+  color: #000;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: rgba(248, 248, 248, 0.8);
+}
